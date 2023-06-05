@@ -6,7 +6,9 @@
 .body {
     background-color: #eee;
 }
-
+.container {
+    display: flex;
+}
 .flashcard {
     border: 1px solid #000;
     border-radius: 10px;
@@ -15,15 +17,13 @@
     height: 200px;
     margin: 10px;
     display: inline-block;
-
 }
 .front {
-    display:block;
+    display: block;
     margin: 10px;
-
 }
 
 .back {
-    display:none;
+    display: none;
     margin: 10px;
 }
