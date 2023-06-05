@@ -1,0 +1,22 @@
+.body {
+    background-color: #eee;
+}
+.flashcard {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+
+}
+.front {
+    display:block;
+    margin: 10px;
+
+}
+
+.back {
+    display:none;
+    margin: 10px;
+}
